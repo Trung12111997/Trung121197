@@ -1,0 +1,430 @@
+*{
+	margin:0;
+}
+
+a.nav-link {
+    color: white !important;
+}
+
+ul.navbar-nav.mr-auto {margin: auto;}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #80b500 !IMPORTANT;
+}
+
+.square div {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(45deg);
+    margin-top: 60px;
+}
+
+.thu {
+    font-size: 35px;
+    color: white;
+}
+
+.cuoicung.text-center {
+    font-size: 15px;
+}
+
+i.fa.fa-phone {
+    margin-right: 8px;
+}
+
+i.fa.fa-map-marker {
+    margin-right: 8px;
+}
+
+p.tongnd {
+    margin-bottom: 4px;
+    /* font-weight: 200; */
+    font-weight: 500;
+    font-family: auto;
+    font-size: 16px;
+    /* font-size: 15px; */
+}
+
+h6.formcuoi {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.chu {
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: auto;
+    font-size: 16px;
+}
+.thongtin span{
+	padding-right: 5px;
+    padding-left: 5px;
+}
+.one {
+    border-right: 1px solid white;
+    
+    font-size: 15px;
+}
+
+span.one {
+    /* margin-left: 17px; */
+}
+
+.col-md-7.giuacuoi {
+    color: white;
+}
+
+i.fa.fa-facebook {}
+
+img.anhvisa {
+    /* margin-left: 16px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-md-3 {
+    padding-top: 20px;
+    color: white;
+}
+
+.mangxh {
+    margin-left: 22px;
+}
+
+.col-md-2.flex {
+    padding-top: 20px;
+    color: white;
+}
+
+span#basic-addon2 {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.col-md-12.footer2 {
+    background-color: black;
+    padding-top: 80px;
+    color: white;
+    padding-bottom: 54px;
+}
+
+.col-md-12.footer2 {}
+
+span.news_inner2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+span.news_inner1 {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+span.news_inner1 i {
+    font-size: 35px;
+}
+
+center {}
+
+.author {
+    color: #BBBBBB;
+    font-size: 15px;
+}
+
+p.chua {
+    color: #BBBBBB;
+}
+
+span.number {
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.date {
+    color: #81B603;
+    margin-top: -16px;
+}
+
+span.month {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p.uor {
+    color: #81B603;
+    border-bottom: 1px solid #d0d0d0;
+    display: -webkit-inline-box;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+.row.chitiet {
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+
+.row.chitiet a:hover h5 {
+    color: black;
+}
+
+.row.chitiet a:hover p {
+    color: black;
+}
+
+.row.chitiet a:hover span {
+    color: #a2a2a2;
+}
+
+.row.chitiet p {
+    margin-bottom: 9px;
+}
+
+.row.chitiet p span {
+    text-decoration: line-through;
+}
+
+.row.chitiet p b {
+    font-size: 17px;
+    color: black;
+}
+
+.row.chitiet p {
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+.row.chitiet h5 {
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+.row.vrb {
+    margin-top: 60px;
+}
+
+.row.vrb h4 {
+    color: #82B604;
+    font-size: 20px;
+    border-bottom: 1px solid #bbbbbb;
+    display: -webkit-inline-box;
+}
+
+.muiten.col-md-12.text-center {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.muiten i {
+    border: 1px solid #adadad;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #adadad;
+    padding-bottom: 1px;
+}
+.header_inner{
+	margin-top: 30px;
+	width: 100%;
+	height: 151px;
+}
+.nav.justify-content-center{
+	background-color: #80B500;
+	height: 65px;
+	width: 100%
+}
+/*.menut{
+	margin-left: 62px;
+	margin-top: 21px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+}*/
+/*.nav-link{
+	color: white;
+	margin-top: 12px;
+}
+.row.container{
+	width: 100%;
+	height: 420.92;
+	margin-top: 20px;
+}
+.banner{
+	width: 480px;
+	height: 125px
+	margin-top:23px;
+	margin-left: -15px;
+}
+.row.button1{
+	
+}*/
+a:hover{
+	text-decoration: none;
+}
+a.btn.btn-outline-default {
+    border: 1px solid;
+}
+.card-title{
+	color: #b3b3b3;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.fit{
+	background: white;
+}
+body{
+	background: url('../public/images/bg.png')  repeat fixed 0 0 #f1f1f1;
+}
+.muiten hr {
+    width: 50%;
+}
+.banerone, .flex{
+	display: flex;
+}
+
+.thongtin.flex {
+    margin-top: 20px;
+}
+
+.col-md-12.footer3.flex {
+    background-color: #2E2E2E;
+}
+
+.col-md-12.footer1.flex {
+    background-color: #80B501;
+    padding-top: 22px;
+    padding-bottom: 18px;
+}
+
+.col-md-12.flex.glchung {
+    /* margin-left: 21px; */
+    margin-bottom: 30px;
+}
+
+.col-md-6.flex.nhom {
+    margin-top: 30px;
+}
+
+.col-md-6.flex.nhom p {
+    font-size: 15px;
+}
+
+.col-md-6.flex.nhom h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.slide{
+	margin-top: 20px;
+}
+.banner1{
+	margin-top: 20px;
+}
+.banner2{
+	margin-top: 20px;
+}
+.buttonn{
+	/*margin-left: 389px;*/
+	margin-top: 60px;
+}
+.btn{
+	font-size: 17px;
+    font-style: inherit;
+    font-weight: 600;
+}
+
+button.btn.btn-light {
+    color: #80b500;
+}
+.nav-item{
+	/* margin-top: 13px; */
+	font-weight: 700;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+.hr1{
+	margin-left: 214px;
+}
+.hiddenmenu{
+	display: none;
+	color: white !important;
+}
+@media only screen and (max-width: 990px){
+.hiddenmenu{
+		display: block !important;
+
+	}
+}
+@media only screen and (max-width: 768px) {
+	*{margin: 0}
+
+.col-md-12.footer3.flex {display: block;}
+
+.col-md-12.footer3 .col-md-2 {
+    text-align: center;
+    padding-left: 240px;
+}
+
+.col-md-12.footer3 .col-md-2 .mangxh {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-md-12.footer3.flex div{
+    text-align: center;
+    margin: auto;
+    max-width: 100% !important;
+}
+  hr.hr1 {
+    	margin-left: 124px;
+	}
+	
+}
+@media only screen and (max-width: 472px) {
+	*{margin: 0}
+
+.date {
+    margin-top: 5px;
+}
+
+.col-md-6.flex.nhom {
+    display: block;
+}
+
+.col-md-12.footer3.flex .col-md-2 {
+    padding-left: 100px;
+}
+
+.col-md-2.flex {}
+
+.col-md-12.footer1.flex .col-md-7 {
+    display: none;
+}
+
+.col-md-6.flex.nhom div {
+    max-width: 100%;
+}
+
+.row.chitiet .col {
+    max-width: 100%;
+    flex-basis: inherit;
+}
+
+.row.vrb .col {
+}
+
+.muiten hr {
+    display: none;
+}
+
+.buttonn button {
+    display: block;
+    width: 100%;
+}
+}
