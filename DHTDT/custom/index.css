@@ -1,0 +1,389 @@
+*{
+    margin:0;
+}
+
+.sukienkhoa {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    color: #0067AC;
+    padding-top: 59px;
+    padding-bottom: 53px;
+}
+
+.footercuoi p {
+    text-align: center;
+}
+
+.footercuoi {
+    background-color: #1F1E23;
+    color: white;
+    text-align: center;
+    padding-top: 21px;
+    /* padding-bottom: 4px; */
+    font-size: 17px;
+    text-align: center;
+}
+
+p {}
+
+.lienhemoi {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.phuongthuclh {
+    color: white;
+}
+
+.nganhsa {
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+
+.footer {
+    background-color: #252429;
+}
+
+.gdtwo {
+    /* padding-top: 168px; */
+    color: #DFDFE0;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.gdone {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    padding-top: -30px;
+}
+
+.cackhoa p {
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: -70px;
+}
+
+.card-text {}
+
+.phanmhai {
+    padding-top: 19px;
+    padding-bottom: 26px;
+}
+
+
+.cackhoa {
+    padding-right: 20px;
+}
+
+.phanmmot {
+    padding-top: 108px;
+}
+
+.cmg {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.daulike {
+    font-size: 37px;
+    color: red;
+}
+
+.cmgltvv {
+    padding-top: 34px;
+}
+
+span.svtn {
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 600;
+    color: #0067AC;
+}
+
+span.svtn {}
+
+.cardhoc {
+    padding-right: 34px;
+}
+
+.carbar {
+    padding-right: -21px;
+}
+
+.carmuoi {
+    padding-left: 60px;
+}
+
+.cthanghai {
+    padding-top: 21px;
+}
+
+.cardhoc {
+    height: 280px;
+}
+
+.cardhoc1 {
+    height: 329px;
+}
+
+.phanmuoi {
+    padding-top: 13px;
+    padding-left: 81px;
+}
+
+.day {
+    border-bottom: 1px solid white;
+}
+
+.ngaysk {
+    font-size: 17px;
+    font-weight: 600;
+    /* padding-top: 33px; */
+}
+
+p {}
+
+.diadiem {
+    font-size: 14px;
+    color: #B7B7B8;
+}
+
+.chuongtrinh {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ngaysk1 {
+    padding-left: 11px;
+}
+
+.ngaysk1 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ngaysk {
+    padding-top: 16px;
+    padding-left: 12px;
+}
+
+.event-date {
+    border: 1px solid #CD2122;
+    background-color: #CD2122;
+    /* padding-top: 21px; */
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.phanchin {
+    padding-top: 17px;
+}
+
+.sukien {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    color: #0067AC;
+    padding-top: 50px;
+    padding-bottom: 19px;
+}
+.anhca{
+	height: 192px;
+}
+
+.phanbay {
+    text-align: right;
+    padding-right: 105px;
+    padding-top: 29px;
+    color: red;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cardts {
+    font-size: 16px;
+    margin: -9px;
+    font-weight: 600;
+    padding-top: 11px;
+}
+
+.ngay {
+    font-size: 14px;
+}
+
+.hoptac {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: red;
+}
+
+.cardbds {
+    margin: -11px;
+}
+
+.card-body.cardbds {}
+
+.thongdiep {
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    /* padding: 0px; */
+    /* width: 107%; */
+    /* margin-left: 0px; */
+}
+
+.phansau {
+    padding-top: 11px;
+}
+
+.phannam center {
+    color: #0067AC;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 29px;
+    padding-bottom: 12px;
+}
+
+.phanba {
+    background-color: #F9FADC;
+}
+
+.nuttimkiem {
+    padding-top: 5px;
+}
+
+i.fa.fa-search {}
+
+.menuchinh {
+    /* text-align: right; */
+    padding-left: 560px;
+    color: #c7bebe;
+}
+
+.giayCN {
+    padding-top: 6px;
+    padding-right: 39px;
+}
+
+.tentruong {
+    padding-left: 89px;
+    padding-top: 13px;
+}
+
+.phanhai {
+    background-color: #F9FADC;
+    border-bottom: 1px solid red;
+}
+
+.giangvien {
+    padding-left: 68px;
+}
+.headermot {
+    background-color: #CD2122;
+    color: white;
+}
+.Phanmot {
+    padding-left: 79px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+/*jhgfdfjkjhgfrhjhgfghgjkj*/
+@media only screen and (max-width: 768px){
+	*{margin: 0}
+	
+
+}
+
+
+@media only screen and (max-width: 472px){
+	*{margin: 0}
+
+.menuchinh {
+    padding-left: 0px;
+}
+
+.gchungnhan {
+    /* text-align: center; */
+    /* padding-left: 0px; */
+    /* padding-right: 0px; */
+    /* margin-right: 0px; */
+    margin-left: 21px;
+}
+.giangvien {
+    display: none;
+}
+
+.event-date {
+    width: 31%;
+}
+
+p.card-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card.cackhoa {
+    width: 100% !important;
+    padding-right: 0px;
+}
+
+.card.cackhoa img {
+}
+
+.card.cardhoc {
+    width: 100% !important;
+    padding-right: 0px;
+}
+
+.card.cardhoc img {
+    width: 100% !important;
+}
+
+.cardhoc1 img {
+    width: 100% !important;
+}
+
+.carmuoi {
+    padding-left: 0px;
+}
+
+.phanmuoi {
+    padding-left: 0px;
+}
+
+.cardhoc1 {
+    width: 100% !important;
+    padding: 0 !important;
+}
+.cardhoc1 {
+    height: auto;
+}
+
+	.Phanmot
+	{
+    	padding-left: 0px;
+    }
+   .khoa 
+   {
+    text-align: center;
+	}
+	.giangvien {
+    padding-left: 0px;
+    text-align: center;
+    font-size: 13px;
+	}
+
+}
