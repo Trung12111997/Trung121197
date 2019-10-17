@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #target{
+            border: 1px solid red;
+            padding: 20px 0px;
+
+        }
+        #target::before {
+            content: "Nội dung thêm bằng css phía trước bên trong thẻ được chọn";
+            color: red;
+        }
+        #target::after {
+            content: "Nội dung thêm bằng css phía sau bên trong thẻ được chọn";
+            color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+<div id="target">
+    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+        Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla quis lorem ut libero malesuada feugiat.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque,
+        auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus suscipit tortor eget felis porttitor volutpat.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque,
+        auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+.site-wraper{
+    width: 1000px;
+    margin: 0 auto;
+}
+header .header-inner{
+    background: gray;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 0px;
+
+}
+ header .main-navigation .main-menu{
+     list-style: none;
+     background: yellow;
+     padding: 0;
+     margin: 0;
+
+
+ }
+ .main-navigation .main-menu li{
+     background: orange;
+     float: left ;
+ }
+ .main-navigation .main-menu li a{
+     color: white;
+     font-size: 20px;
+     display: block;
+     background: orange;
+     text-decoration: none;
+     padding: 10px;
+
+ }
+ .main-navigation .main-menu li a:hover{
+     background: tomato;
+
+ }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

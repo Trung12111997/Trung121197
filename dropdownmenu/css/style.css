@@ -1,0 +1,60 @@
+
+.site-wraper{
+    width: 1000px;
+    margin: 0 auto;
+}
+header .header-inner{
+    background: gray;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 0px;
+
+}
+header .main-navigation .main-menu{
+    list-style: none;
+    background: yellow;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navigation .main-menu li menu-item{
+    background: orange;
+    float: left ;
+    position: relative;
+}
+.main-navigation .main-menu li a{
+    color: white;
+    font-size: 20px;
+    display: block;
+    background: orange;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.main-navigation .main-menu li a:hover{
+    background: tomato;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+nav .submenu{
+    display: none;
+    position: absolute;
+
+}
+/*thẻ li chưa class menu-item nên phải viết liền,k đc cách ra giống như thẻ ul kia*/
+.main-navigation .main-menu li.menu-item:hover ul.submenu{
+    display: block;
+
+}
+ul.main-menu.clearfix li {
+    /* display: inline-block; */
+}

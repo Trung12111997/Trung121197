@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .container{
+            height: 300px;
+            border: 1px solid red;
+        }
+        #float1{
+             background-color:  green;
+             height: 100px;
+             width: 100px;
+            float: right;
+         }
+        #float2{
+            background-color:  yellow;
+            height: 100px;
+            width: 100px;
+            clear: right;
+        }
+    </style>
+</head>
+
+<body>
+    <pre>
+        Thuoohc tính float cs nghia  là trôi ( sang trái hoạc sang phải )
+         Có ba giá trị chính
+        1 Float left trôi sang trái
+        2 right sang phải
+        3 none không trôi
+        chú ý khi một thẻ float sang trái hay sang phải nếu màn hình vẫn còn phần để hiển thị thì phần thẻ
+        bên cajnh nó sẽ bị ảnh hưởng trôii
+         sang trái hoặc trôi sang phải theo thẻ float nó
+        vd: thẻ a nằm cạnh thẻ B
+        thì thẻ A sẽ bị float: right thìthẻ b sẽ bị thẻ a  ảnh hưởn trôi snag bên phải
+        Khi mà không muốn thẻ bên cạnh đag có thuộc tính là left hay rightgaay ảnh hưởng đến mục hiển thị thì sẽ sử dụng đến thuộc tính cl
+        clear
+        Thuộc tính clear: left( Chống thằng Float left)
+        Tương tự both, right
+
+    </pre>
+ <div class="container">
+     <div id="float1">
+        div 1
+     </div>
+     <div id="float2">
+        div 2
+     </div>
+
+ </div>
+</body>
+</html>
