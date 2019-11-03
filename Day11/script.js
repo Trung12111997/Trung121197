@@ -1,0 +1,1 @@
+alert("hiện ra màn hình thông báo ")
