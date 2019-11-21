@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="info"></div>
+<script type="text/javascript">
+    class car{
+        constructor(hangxe){
+            this.hangxe=hangxe;
+        }
+        hangXe(){
+            return " Hàng xe là : " +this.hangxe;
+        }
+    }
+    class kieudang extends car{
+        constructor(hangxe,kieudang){
+            super(hangxe);
+            this.kieudang=kieudang;
+
+        }
+        thongtin(){
+            return " Kiểu dáng "+ this.kieudang + "Thuộc"+this.hangXe();
+        }
+    }
+    var car1 = new kieudang("Ford", "Ecosport");
+    document.getElementById("info").innerHTML = car1.thongtin();
+
+</script>
+
+</body>
+</html>

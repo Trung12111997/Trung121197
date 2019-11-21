@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="demo"> DEmo</h1>
+<a href="#" id="btn"> click hêre</a>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#btn").on("click",function (e) {
+            e.preventDefault();//ngăn sự chuyển hướng của thẻ  a
+            // $("#demo").css("color","red");
+             $("#demo").css({"color":"red", "backgroundColor": "green", "font-size":"40px", "boder":"2px solid orange", "padding":"20px"})
+        })
+
+    })
+</script>
+</body>
+</html>

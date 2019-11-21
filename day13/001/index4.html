@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="info"></div>
+<div id="info1"></div>
+
+<script type="text/javascript">
+    class car{
+        constructor( thuonghieu, gia,kieudang,tocdo){
+            this.thuonghieu=thuonghieu;
+            this.gia=gia;
+            this.kieudang=kieudang;
+
+        }
+        thongtin(){
+            return " Xe ô tô" + this.thuonghieu;
+        }
+        static tocdo(tocdo){
+            car.tocdo =tocdo;
+            return " Tốc độ của xe là :"+ car.tocdo;
+        }
+    }
+    document.getElementById("info").innerText= car.tocdo("200km.h");
+    var car1= new car("lexxu",10," sang trọng");
+    document.getElementById("info1").innerText= car1.thongtin();
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+ <div class="container-fluid">
+     <button onclick="chon('button1')" > Chó </button>
+     <button onclick="chon('button2')"> Mèo  </button>
+     <button onclick="chon('button3')"> Thỏ </button>
+     <img src="cho.jpg" alt="" id="img">
+ </div>
+ <script>
+     function chon(chonn) {
+         if(chonn === "button1")
+         {
+             document.getElementById('img').src = "cho.jpg";
+
+         }
+         else if(chonn ==="button2")
+         {
+             document.getElementById('img').src = "meo.jpg";
+         }
+         else if (chonn ==="button3")
+         {
+             document.getElementById('img').src = "Thocon.jpg";
+
+         }
+     }
+
+ </script>
+
+
+</body>
+</html>

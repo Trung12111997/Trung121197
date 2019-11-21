@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div id="demo"></div>
+        <script>
+            var coutdowndate= new Date(2020,0,1,0,0,0,0).getTime();
+            var bien =setInterval(function () {
+                var now= new Date().getTime();
+                var distance= coutdowndate-now;
+                var days= Math.floor(distance/(1000*60*60*24));
+                var hours= Math.floor(distance%(1000*60*60*24)/(1000*60*60));
+                var minitus= Math.floor(distance%(1000*60*60*24)/(1000*60));
+                var seconds= Math.floor(distance%(1000*60*60*24)/(1000));
+                document.getElementById("demo").innerHTML="Còn " + days + " ngày " + hours + " giờ "
+                    + minitus + " phút " + seconds + " giây nữa là tết 2020";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            },1000)
+
+
+
+        </script>
+</body>
+</html>

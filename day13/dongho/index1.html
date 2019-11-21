@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo"></div>
+<div id="tet"></div>
+<div id="timehientai"></div>
+<div id="timehientet"></div>
+<div id="hientatca"></div>
+<script>
+    var d= new Date();
+    document.getElementById("demo").innerText= d;
+     var tet = new  Date(2020,0,1,0,0,0,0);
+    document.getElementById("tet").innerText= tet;
+    document.getElementById(timehientai).innerText= "  Thời gian hiện tại :"+ d.getTime();
+    document.getElementById(timehientet).innerText= "  Thời gian hiện tết tại :"+ d.getTime();
+    document.getElementById(hientatca).innerText= d.getFullYear() + " tháng " + d.getMonth() + " ngày " + d.getDate() + " giờ " + d.getHours() ;
+
+</script>
+
+
+</body>
+</html>

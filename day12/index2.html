@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<pre>
+                Sử dụng công thức tại trang https://news.zing.vn/5-cong-thuc-don-gian-do-chi-so-bmi-post669580.html
+                để tính toán ra chỉ số BMI khi nhập vào
+                và in ra thông tin phân loại
+                và nguy cơ bệnh tật
+            </pre>
+
+<div class="container">
+    <div class="row">
+        <form name="bmi" action="" method="post" onsubmit="return false">
+            <div class="form-group">
+                <label>Cân nặng ( Kg )</label>
+                <input type="text" name="weight" class="form-control" placeholder="Cân nặng" id="cannang">
+
+            </div>
+            <div class="form-group">
+                <label>Chiều cao ( đơn vị mét )</label>
+                <input type="text" name="height" class="form-control" placeholder="Chiều cao" id="chieucao">
+            </div>
+
+            <button class="btn btn-primary" onclick="tinhbmi()">tính MBI</button>
+        </form>
+    </div>
+
+    <div class="row">
+        <h2>Kết quả sau tính toán</h2>
+
+
+    </div>
+
+    <div class="row">
+        <p id="bmi">BMI : ?</p>
+        <p id="phanloai">Phân loại : ?</p>
+        <p id="nguyco">Nguy cơ bênh tật : ?</p>
+    </div>
+</div>
+<script>
+        function tinhbmi() {
+            var a;
+           a = document.getElementById('cannang').value;
+           var b;
+           b = document.getElementById('chieucao').value;
+           var c;
+           c= parseInt(a/(b*b));
+           document.getElementById('bmi').innerText='BMI=' +c+'';
+        if(c<=18.5) {
+            document.getElementById('phanloai').innerText='Gầy';
+            document.getElementById('nguyco').innerText='Thấp';
+
+        }
+        else if(c<=24.9 ){
+            document.getElementById('phanloai').innerText='Bình thường';
+            document.getElementById('nguyco').innerText='Bình thường';
+        }
+        else if(c<=29.9 ){
+            document.getElementById('phanloai').innerText='Hơi béo';
+            document.getElementById('nguyco').innerText='cao';
+        }
+        else if(c<=34.9 ){
+            document.getElementById('phanloai').innerText=' béo phì cấp độ 1';
+            document.getElementById('nguyco').innerText='cao';
+        }
+        else if(c<=39.9 ){
+            document.getElementById('phanloai').innerText=' béo phì cấp độ 2';
+            document.getElementById('nguyco').innerText=' rất cao';
+        }
+        else if(c>=40 ){
+            document.getElementById('phanloai').innerText=' béo phì cấp độ 3';
+            document.getElementById('nguyco').innerText='Nguy hiểm';
+        }
+
+        }
+</script>
+
+</body>
+</html>

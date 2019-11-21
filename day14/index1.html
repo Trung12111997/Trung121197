@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <pre>
+            jquery là framework của js
+            việc sử dụng ú pháp của jquery cho phép code js nhanh và dễ dàng hơn
+        </pre>
+         <div id="demo">Demo</div>
+         <div id="demo1">Demo1</div>
+        <div class="hanoi">thanh xuân</div>
+        <div class="hanoi">hoàng mai</div>
+        <div class="hanoi">hoàn kiếm</div>
+
+        <div class="haiphong">lê chân</div>
+        <div class="haiphong">thủy nguyên</div>
+        <div class="haiphong">an lão</div>
+
+        <h1>Demo thẻ h1</h1>
+        <h3>Demo thẻ h3</h3>
+        <script
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                console.log("ready!")
+                $("#demo").css("color","red");
+                $(".hanoi").css("color","blue");
+                $("h1").css("color","violet");
+            })
+
+        </script>
+        <script>
+            document.getElementById("demo1").style.color="red";
+            var haiphong= document.getElementsByClassName("haiphong");
+            for (var i=0; i < haiphong.length; i++){
+                haiphong[i].style.color="red";
+
+            }
+            var h3= document.getElementsByTagName("h3");
+            for (var i=0; i<h3.length;i++){
+                h3[i].style.color="violet"
+            }
+        </script>
+</body>
+</html>

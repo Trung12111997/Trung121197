@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="info"></div>
+<div id="info1"></div>
+<script>
+    class sinhvien
+    {
+        constructor(ten,tuoi,quequan,diemtoan,diemly,diemhoa){
+            this.ten=ten;
+            this.tuoi=tuoi;
+            this.quequan=quequan;
+            this.diemtoan=diemtoan;
+            this.diemly=diemly;
+            this.diemhoa=diemhoa;
+
+        }
+        thongtin(){
+            return "Tôi tên là: " + this.ten + " Tuổi" + this.tuoi +"quê quán"+this.quequan;
+        }
+        tinhdiem(){
+            this.diemtongket = (this.diemhoa + this.diemly +this.diemhoa)/3;
+        }
+        xeploai(){
+            if(this.diemtongket>=5){
+                this.xeploai="Qua môn";
+            }
+            else{
+                this.xeploai="Học lại nhé !";
+            }
+
+        }
+
+    }
+    var sinhvien1 = new sinhvien(" Nguyễn Văn Trung", 21, "Nam Định", 1, 2,6);
+    document.getElementById("info").innerText= sinhvien1.thongtin();
+    sinhvien1.tinhdiem();
+    sinhvien1.xeploai();
+    document.getElementById("info1").innerText= "Xếp loại" + sinhvien1.xeploai;
+
+
+
+</script>
+
+</body>
+</html>

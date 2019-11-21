@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function user(username,password) {
+        this.username="";
+        this.password="";
+
+        this.checklogin=function () {
+            if (this.username == "admin" && this.password == "12345678") {
+                return true;
+            }
+            return false;
+        }
+
+    }
+    user.prototype.remember = true;
+    // khai báo thêm 1 phương thức cho class User
+    user.prototype.getInfo = function() {
+        return "Username : " + this.username + " password : " + this.password;
+    };
+    var user1 = new user("admin", "12345678");
+    if (user1.checklogin()) {
+        alert("Đăng nhập thành công");
+    } else {
+        alert("Đăng nhập thất bại");
+    }
+</script>
+</body>
+</html>
