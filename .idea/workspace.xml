@@ -2,58 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeee1fc2-7cab-490e-b7e9-12275cae3bb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day11/bien/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/bien/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/caulenhdieukien/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/hamtrongjs/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/hamtrongjs/index6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/hamtrongjs/index7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/hamtrongjs/index8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/kieudulieu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/kieudulieu/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/kieudulieu/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/onclick/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/toantuendor/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/toantuendor/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapforr/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapforr/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapforr/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapforr/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapwwhile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapwwhile/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/vong lap/vonglapwwhile/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/index6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/001/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/001/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/001/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/001/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/001/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/001/index6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/dongho/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/dongho/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/dongho/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/dongho/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/dongho/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/index9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapjavascript/js1/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapjavascript/js1/index1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapjavascript/js1/js1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapjavascript/js2/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapjavascript/js3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapjavascript/js4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/dieukien.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/index9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/001/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/002/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/002/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/002/index4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/002/index5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/002/index6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/002/index7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/003/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/003/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/003/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/003/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/002/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/002/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/002/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/003/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/003/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/003/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/003/index4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/003/process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/004/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/004/process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/004/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/004/success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/ô1/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/ô1/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/ô1/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/ô1/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/ô1/thu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/index4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/index4for.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/modau/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/modau/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/bientrongjs/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/bientrongjs/index4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/modau/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,25 +83,25 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day15/002" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Trung12111997\day13\001" />
-      <recent name="C:\xampp\htdocs\Trung12111997\day12" />
-      <recent name="C:\xampp\htdocs\Trung12111997\Day11\modau" />
-      <recent name="C:\xampp\htdocs\Trung12111997\Day11\vong lap\vonglapforr" />
-      <recent name="C:\xampp\htdocs\Trung12111997\Day11\bientrongjs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Trung12111997\day15\002" />
       <recent name="C:\xampp\htdocs\Trung12111997\day14" />
       <recent name="C:\xampp\htdocs\Trung12111997\day13\dongho" />
       <recent name="C:\xampp\htdocs\Trung12111997\Day11\vong lap\vonglapwwhile" />
       <recent name="C:\xampp\htdocs\Trung12111997\Day11\vong lap\vonglapforr" />
-      <recent name="C:\xampp\htdocs\Trung12111997\Day11\vong lap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Trung12111997\baitapjavascript\js2" />
+      <recent name="C:\xampp\htdocs\Trung12111997\baitapjavascript\js1" />
+      <recent name="C:\xampp\htdocs\Trung12111997\day15\002" />
+      <recent name="C:\xampp\htdocs\Trung12111997\day13\001" />
+      <recent name="C:\xampp\htdocs\Trung12111997\day12" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,6 +140,12 @@
       <workItem from="1573126258444" duration="8616000" />
       <workItem from="1573383918106" duration="9861000" />
       <workItem from="1573729956918" duration="9348000" />
+      <workItem from="1574334766026" duration="9882000" />
+      <workItem from="1574594049739" duration="9560000" />
+      <workItem from="1574869824476" duration="231000" />
+      <workItem from="1574926210237" duration="1314000" />
+      <workItem from="1574928171173" duration="1619000" />
+      <workItem from="1574940183430" duration="9379000" />
     </task>
     <task id="LOCAL-00001" summary="đẩy ngfay2/11">
       <created>1572675530553</created>
