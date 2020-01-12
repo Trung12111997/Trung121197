@@ -63,12 +63,12 @@ echo "</pre>";
         </thead>
         <tbody>
         <?php
-        $x= count($cities);
+        count($cities);
 
-        for($x=0; $x<30;$x++) {
+        for($x=0; $x< count($cities);$x++) {
             echo "<tr>";
-            echo "<td>".($cities+1)."</td>";
-            echo "<td>" . $cities[$x]["name] ."</td>";
+            echo "<td>".($x+1)."</td>";
+            echo "<td>" . $cities[$x]["name"] ."</td>";
             echo "<td>" . $cities[$x]["dgp"] . "</td>";
             echo "<td>" . $cities[$x]["boot"] . "</td>";
             echo "</tr>";
