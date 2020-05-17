@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+   1 - tạo ra 1 controller "AbcController" trực tiếp trong folder theo đường dẫn
+        app/Http/Controllers
+        => php artisan make:controller AbcController
+
+        2 - tạo ra 1 controller "PostController" nằm 1 folder mẹ
+        Backend bên trong đường dẫn app/Http/Controllers
+        => php artisan make:controller Backend/PostController
+
+        3 tạo 1 controller "PostController" trong folder
+        Frontend trong app/Http/Controllers
+        => php artisan make:controller Frontend/PostController
+      4 tạo model trực tiếp trong folder app
+        => php artisan make:model AbcModel
+
+        5 tạo model trong folder của folder app
+        => php artisan make:model Models/Backend/PostModel
+        => php artisan make:model Models/Frontend/PostModel
+    6 migration
+        => php artisan make:migration create_customers_table
+
+          public function up()
+            {
+                Schema::create('customers', function (Blueprint $table) {
+                    $table->bigIncrements('id');
+                    $table->string('firstname');
+                    $table->string('lastname');
+                    $table->integer("age");
+                    $table->text("address");
+                    $table->dateTime("birthday");
+                    $table->timestamps();
+                });
+            }
+</pre>
+
+</body>
+</html>
