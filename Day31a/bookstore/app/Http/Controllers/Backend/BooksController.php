@@ -55,9 +55,9 @@ class BooksController extends Controller
         $book->book_price_core = $request->book_price_core;
         $book->book_price_sell = $request->book_price_sell;
         $book->book_status = $request->book_status;
-        if($request-> hasFile('book_images')){
+        if($request-> File('book_images')->isValid()){
 
-            $book->book_images = $request->book_images->store('images');
+            $book->book_images = $request->book_images->store('public/images');
 
         }
 
@@ -78,8 +78,19 @@ class BooksController extends Controller
         $book->book_price_core = $request->book_price_core;
         $book->book_price_sell = $request->book_price_sell;
         $book->book_status = $request->book_status;
-        $book->save();
 
+        if($request-> File('book_images')){
+
+            $book->book_images = $request->book_images->store('public/images');
+
+        }
+        if($request->hasFile('book_main_image')){
+            foreach ($request->photos as $photo){
+                $book->book_main_image = $request->book_main_image->store('public/images');
+
+            }
+        }
+        $book->save();
         return redirect('backend/index')->with('status', 'Cập nhật cuốn sách thành công!');
     }
     public function destroy(Request $request, $id){

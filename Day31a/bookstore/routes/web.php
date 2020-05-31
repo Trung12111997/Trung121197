@@ -31,4 +31,13 @@ Route::post('/backend/create', "Backend\BooksController@store");
 Route::post('/backend/edit/{id}', "Backend\BooksController@update");
 Route::post('/backend/delete/{id}', "Backend\BooksController@destroy");
 
+Route::get('/backend/template/index', 'templatecontroller@index');
 Route::get('/db/{action?}', 'Backend\Learndbcontroller@index');
+Route::get('/backend/template/login', 'templatecontroller@login');
+Route::get('/backend/template/register', 'templatecontroller@register');
+Route::post('/backend/template/login', 'templatecontroller@logintask');
+Route::get('/backend/template/logout', 'templatecontroller@logout');
+Route::post('/backend/template/register', 'templatecontroller@registertask');
+
+
+

@@ -10,7 +10,7 @@
         <div class="col-md-12">
 
 
-            <form name="book" action="{{ url("/backend/edit/$book->id") }}" method="post">
+            <form name="book" action="{{ url("/backend/edit/$book->id") }}" method="post" enctype="multipart/form-data">
 
                 {{ csrf_field() }}
                 <div class="form-group">
@@ -31,11 +31,18 @@
                 </div>
                 <div class="form-group">
                     <label>book_main_image</label>
-                    <input type="text" name="book_main_image" class="form-control" value="{{$book->book_main_image}}">
+                    <input type="file" name="book_main_image" class="form-control" value="{{$book->book_main_image}}">
+                    <button type="submit" class="btn btn-primary">Thêm file</button>
+                    @if($book->book_main_image)
+                        <img width="100px" src="{{ asset('storage/images/'. basename($book->book_images)) }}" />
+                    @endif
                 </div>
                 <div class="form-group">
                     <label>book_images</label>
-                    <input type="text" name="book_images" class="form-control" value="{{$book->book_images}}">
+                    <input type="file" name="book_images" class="form-control" value="{{$book->book_images}}">
+                    @if($book->book_main_image)
+                        <img width="100px" src="{{ asset('storage/images/'. basename($book->book_images)) }}" />
+                    @endif
                 </div>
                 <div class="form-group">
                     <label>book_author</label>

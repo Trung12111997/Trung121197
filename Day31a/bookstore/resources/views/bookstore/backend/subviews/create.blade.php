@@ -34,8 +34,11 @@
                 <div class="form-group">
                     <label>book_images</label>
                     <input type="file" name="book_images" class="form-control" value="">
-
+                    @if($book->book_main_image)
+                        <img src="{{ asset('storage/images/'. basename($book->book_main_image)) }}" />
+                    @endif
                 </div>
+
                 <div class="form-group">
                     <label>book_author</label>
                     <input type="text" name="book_author" class="form-control" value="">
